@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://i.giphy.com/BbmDhO2gx3o96CpVM1.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.container {
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    opacity: 0.8;
+}
+
+h1 {
+    color: #ff69b4;
+    font-family: 'Great Vibes', cursive;
+}
+
+img {
+    width: 250px;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #e91e63;
+    color: #fff;
+}
